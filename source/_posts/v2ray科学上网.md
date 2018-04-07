@@ -47,7 +47,7 @@ vim /usr/local/etc/config.json
 
 配置文件也可以从 `https://free-ss.site/` 下载：
 
-![](/src/free-ss.png)
+![](/img/src/free-ss.png)
 
 config.json 添加 http 代理：
 
@@ -71,4 +71,4 @@ alias unproxy='unset https_proxy http_proxy socks5_proxy'
 
 然后配置一下 chrome 插件 Proxy SwitchyOmega
 
-![](/src/switchOmega.png)
+![](/img/src/switchOmega.png)
