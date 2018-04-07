@@ -63,7 +63,7 @@ config.json 添加 http 代理：
 
 .zshrc 添加
 
-```Shell
+```
 # proxy
 alias proxy='export https_proxy=http://127.0.0.1:1081;export http_proxy=https://127.0.0.1:1081;export socks5_proxy=socks5://127.0.0.1:1080'
 alias unproxy='unset https_proxy http_proxy socks5_proxy'
@@ -72,3 +72,5 @@ alias unproxy='unset https_proxy http_proxy socks5_proxy'
 然后配置一下 chrome 插件 Proxy SwitchyOmega
 
 ![](/img/src/switchOmega.png)
+
+OK，现在你可以科学上网了！
