@@ -10,6 +10,25 @@ author: Jsharkc
 language: zh-CN
 timezone:
 
+# Live2D
+# https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: haru/01
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
@@ -70,3 +89,4 @@ theme: material
 deploy:
   type: git
   repo: https://github.com/Jsharkc/jsharkc.github.io.git
+ 
