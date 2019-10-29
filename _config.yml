@@ -24,8 +24,8 @@ live2d:
     use: haru/01
   display:
     position: right
-    width: 150
-    height: 300
+    width: 250
+    height: 500
   mobile:
     show: true
 
