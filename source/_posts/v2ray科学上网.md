@@ -45,7 +45,7 @@ brew upgrade v2ray-core
 vim /usr/local/etc/config.json
 ```
 
-配置文件也可以从 `https://free-ss.site/` 下载：
+配置文件也可以从 `http://free-ss.tk/`或者`http://free-ss.tk/` 下载：
 
 ![](/img/src/free-ss.png)
 
